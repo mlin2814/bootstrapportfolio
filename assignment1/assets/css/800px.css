@@ -1,0 +1,38 @@
+#container {
+	width: 960px;
+}
+
+#header {
+    position: fixed;
+    background: #4aaaa5;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    top: 0;
+    left: 90px;
+    border-color: #cccccc;
+    font: 'Georgia', Times, Times New Roman, serif;
+}
+
+#MainBody {
+    width: 650px;
+    height: 400px;
+    margin-top: 62px;
+    left: 90px;
+    background-color: #03C;
+    float: left;
+    position: inherit;
+}
+
+#connection {
+    float: right;
+    width: 100px;
+    height: 300px;
+}
+
+#footer {
+    height: 20px;
+    background-color: #666666;
+    padding: 20px;
+    clear: both;
+}

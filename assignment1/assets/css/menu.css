@@ -1,0 +1,101 @@
+#MainBody {
+    height: 900px;
+    width: 650px;
+    background-color: #ffffff;
+}
+
+#MainBody ul {
+	margin: 0;
+	padding: 0;
+}
+
+#MainBody li {
+	list-style-type: none;
+	float: left;
+	display: block;
+	width: 150px;
+	height: 400px;
+	text-align: center;
+	line-height: 55px;
+    font: 'Georgia', Times, Times New Roman, serif;
+    font-size: 16px;
+}
+
+#MainBody li a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+#MainBody li:Hover {
+	background-color: #CCC;
+}
+
+#navigation {
+    height: 50px;
+    background-color: #ffffff;
+    color: #4aaaa5;
+}
+
+#navigation ul {
+	margin: 0;
+	padding: 0;
+}
+
+#navigation li {
+	list-style-type: none;
+	float: right;
+	display: block;
+	width: 75px;
+	height: 40px;
+	text-align: center;
+	line-height: 50px;
+    font: 'Georgia', Times, Times New Roman, serif;
+    font-size: 16px;
+}
+
+#navigation li a {
+	text-decoration: none;
+	color: #4aaaa5;
+}
+
+#navigation li:Hover {
+	background-color: #ffffff;
+}
+
+#portfolio {
+    height: 900px;
+    width: 650px;
+    background-color: #ffffff;
+    color: #4aaaa5;
+    float: center;
+}
+
+#portfolio ul {
+	margin: 0;
+	padding: 0;
+}
+
+#portfolio li {
+	list-style-type: none;
+	float: center;
+	position: static;
+	display: block;
+	width: 150px;
+	height: 40px;
+	left: 90px;
+	right: 90px;
+	text-align: center;
+	line-height: 55px;
+    font: 'Georgia', Times, Times New Roman, serif;
+    font-size: 16px;
+}
+
+#portfolio li a {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #4aaaa5;
+}
+
+#portfolio li:Hover {
+	background-color: #CCC;
+}
